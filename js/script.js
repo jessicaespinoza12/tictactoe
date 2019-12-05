@@ -1,5 +1,8 @@
 
-
+ var currentplayer= "o"
+var secondplayer="x"
+var totalWons=0 
+var endGame=false
 
 
 
@@ -7,6 +10,7 @@
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
+   function performLogic (buttonId,tileId)
 });
 
 $("#button2").click(function() {
